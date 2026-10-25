@@ -1,33 +1,33 @@
-[
+﻿[
   {
-    "version": "1.0.2",
-    "date": "2025-07-20",
-    "size": "~85 MB",
-    "url": "dist/Nova POS Setup 1.0.2.exe",
-    "changelog": [
-      "Fixed invoice numbering sequence bug during concurrent offline saves",
-      "Improved Excel report generation speed for large stock ledgers",
-      "Added thermal printer driver auto-detection utility"
+    \"version\": \"1.0.2\",
+    \"date\": \"2025-07-20\",
+    \"size\": \"~85 MB\",
+    \"url\": \"https://github.com/Muhammad-Basit2/NOVA-POS-WEB/releases/download/v1.0.2/Nova%20POS%20Setup%201.0.2.exe\",
+    \"changelog\": [
+      \"Fixed invoice numbering sequence bug during concurrent offline saves\",
+      \"Improved Excel report generation speed for large stock ledgers\",
+      \"Added thermal printer driver auto-detection utility\"
     ]
   },
   {
-    "version": "1.0.1",
-    "date": "2025-06-15",
-    "size": "~84 MB",
-    "url": "dist/Nova POS Setup 1.0.1.exe",
-    "changelog": [
-      "Added Excel import feature for bulk inventory creation",
-      "Optimized SQLite queries for instant item search lookups"
+    \"version\": \"1.0.1\",
+    \"date\": \"2025-06-15\",
+    \"size\": \"~84 MB\",
+    \"url\": \"https://github.com/Muhammad-Basit2/NOVA-POS-WEB/releases/download/v1.0.1/Nova%20POS%20Setup%201.0.1.exe\",
+    \"changelog\": [
+      \"Added Excel import feature for bulk inventory creation\",
+      \"Optimized SQLite queries for instant item search lookups\"
     ]
   },
   {
-    "version": "1.0.0",
-    "date": "2025-05-01",
-    "size": "~82 MB",
-    "url": "dist/Nova POS Setup 1.0.0.exe",
-    "changelog": [
-      "Initial production release of Nova POS",
-      "Offline cashier terminal support and receipt printing"
+    \"version\": \"1.0.0\",
+    \"date\": \"2025-05-01\",
+    \"size\": \"~82 MB\",
+    \"url\": \"https://github.com/Muhammad-Basit2/NOVA-POS-WEB/releases/download/v1.0.0/Nova%20POS%20Setup%201.0.0.exe\",
+    \"changelog\": [
+      \"Initial production release of Nova POS\",
+      \"Offline cashier terminal support and receipt printing\"
     ]
   }
 ]
