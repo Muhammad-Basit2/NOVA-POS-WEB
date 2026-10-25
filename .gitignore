@@ -1,0 +1,52 @@
+﻿# ─────────────────────────────────────────────────────────────
+# Nova POS — Git Ignore
+# ─────────────────────────────────────────────────────────────
+
+# ── Build / Installer Output ─────────────────────────────────
+dist/
+*.exe
+*.msi
+*.dmg
+*.app
+*.apk
+*.aab
+
+# ── Node / NPM (if applicable) ───────────────────────────────
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Environment & Secrets ────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.secret
+*.key
+
+# ── Editor & OS junk ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Logs & Temp ──────────────────────────────────────────────
+logs/
+*.log
+tmp/
+temp/
+
+# ── Database (generated at runtime) ──────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Electron / Webpack build output ──────────────────────────
+electron-out/
+build/
+out/
+release/

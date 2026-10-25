@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova POS — Fast, Offline Point of Sale & Inventory Management</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Dynamic Update Banner -->
+    <div id="update-banner" class="update-banner hidden">
+        <i class="fa-solid fa-sparkles"></i>
+        <span>New Update Available! Version <strong id="banner-version"></strong> is ready for download.</span>
+        <button id="banner-download-btn" class="btn-banner">Get Update</button>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-cash-register"></i></div>
+                <span>Nova <span class="highlight">POS</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#download">Download</a>
+                <a href="#previous-versions">Releases</a>
+            </nav>
+            <a href="#download" class="btn btn-secondary nav-cta">
+                <i class="fa-solid fa-download"></i> Download App
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">
+                        <i class="fa-solid fa-shield-halved"></i> 100% Offline-First Architecture
+                    </span>
+                    <h1>Fast, Offline Point of Sale & Inventory Management</h1>
+                    <p>
+                        Engineered for speed, stability, and zero downtime. Nova POS runs locally on your Windows machine with full customer credit ledger tracking, instant invoice printing, SQLite reliability, and dynamic reporting.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#download" class="btn btn-primary btn-lg">
+                            <i class="fa-solid fa-download"></i> Download Latest Version
+                        </a>
+                        <a href="#features" class="btn btn-outline btn-lg">
+                            Explore Features <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Desktop App Mockup -->
+                <div class="hero-preview">
+                    <div class="window-frame">
+                        <div class="window-header">
+                            <div class="window-dots">
+                                <span class="dot dot-close"></span>
+                                <span class="dot dot-min"></span>
+                                <span class="dot dot-max"></span>
+                            </div>
+                            <div class="window-title">
+                                <i class="fa-solid fa-cash-register"></i> Nova POS v1.0.2 - Counter Terminal #1
+                            </div>
+                        </div>
+                        <div class="window-body">
+                            <div class="mockup-grid">
+                                <div class="mockup-card primary">
+                                    <div class="mockup-card-title">Today's Sales Summary</div>
+                                    <div class="mockup-val">Rs. 142,850</div>
+                                    <div class="mockup-tag">48 Completed Orders</div>
+                                </div>
+                                <div class="mockup-card">
+                                    <div class="mockup-card-title">Khata Ledger Dues</div>
+                                    <div class="mockup-val warning">Rs. 28,400</div>
+                                    <div class="mockup-tag">12 Pending Clients</div>
+                                </div>
+                            </div>
+                            <div class="mockup-table">
+                                <div class="mockup-table-row header">
+                                    <span>Item Description</span>
+                                    <span>Qty</span>
+                                    <span>Price</span>
+                                    <span>Total</span>
+                                </div>
+                                <div class="mockup-table-row">
+                                    <span>Premium Rice (50kg Bag)</span>
+                                    <span>4</span>
+                                    <span>Rs. 8,500</span>
+                                    <span>Rs. 34,000</span>
+                                </div>
+                                <div class="mockup-table-row">
+                                    <span>Cooking Oil (16 Litre Tin)</span>
+                                    <span>2</span>
+                                    <span>Rs. 7,200</span>
+                                    <span>Rs. 14,400</span>
+                                </div>
+                                <div class="mockup-table-row">
+                                    <span>Refined Sugar (Mund 40kg)</span>
+                                    <span>1</span>
+                                    <span>Rs. 5,800</span>
+                                    <span>Rs. 5,800</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download" class="section download-section">
+            <div class="container">
+                <div class="card download-card">
+                    <div class="download-content">
+                        <div class="download-info">
+                            <span class="version-tag">
+                                Latest Release <span id="latest-version-badge">v1.0.2</span>
+                            </span>
+                            <h2>Ready to Elevate Your Retail Business?</h2>
+                            <p>Download the standalone installer for Windows 10 & 11 (64-bit). Works entirely offline without requiring internet connectivity.</p>
+                            
+                            <div class="download-meta">
+                                <div><i class="fa-solid fa-calendar-day"></i> Release Date: <strong id="latest-release-date">July 20, 2025</strong></div>
+                                <div><i class="fa-solid fa-hard-drive"></i> File Size: <strong id="latest-file-size">~85 MB</strong></div>
+                                <div><i class="fa-brands fa-windows"></i> Platform: <strong>Windows 10 / 11 (64-bit)</strong></div>
+                            </div>
+                        </div>
+
+                        <div class="download-cta">
+                            <a id="primary-download-btn" href="dist/Nova POS Setup 1.0.2.exe" class="btn btn-primary btn-xl" download>
+                                <i class="fa-solid fa-circle-down"></i> Download Setup (.exe)
+                            </a>
+                            <p class="download-note">
+                                <i class="fa-solid fa-shield-check"></i> Clean Build & Safe Setup (Electron framework)
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Changelog Snippet -->
+                    <div class="changelog-box">
+                        <h3><i class="fa-solid fa-list-check"></i> What's New in Version <span id="changelog-version">1.0.2</span></h3>
+                        <ul id="latest-changelog-list" class="changelog-list">
+                            <li><i class="fa-solid fa-check"></i> Fixed invoice numbering sequence bug during concurrent offline saves</li>
+                            <li><i class="fa-solid fa-check"></i> Improved Excel report generation speed for large stock ledgers</li>
+                            <li><i class="fa-solid fa-check"></i> Added thermal printer driver auto-detection utility</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section bg-alt">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Everything You Need for Smooth Operations</h2>
+                    <p>Built specifically for retail stores, wholesalers, and fast-paced cash counters.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="card feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-wifi-slash"></i></div>
+                        <h3>100% Offline-First</h3>
+                        <p>No internet connection required. Your business keeps operating seamlessly even during complete web network outages.</p>
+                    </div>
+
+                    <div class="card feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+                        <h3>Inventory Tracking</h3>
+                        <p>Track stocks, low quantity alerts, unit conversions (Mund, Bags, KGs), and categories with sub-second lookups.</p>
+                    </div>
+
+                    <div class="card feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>SQLite Database</h3>
+                        <p>Powered by reliable high-speed local storage. Supercharged transaction speeds with built-in backup tools.</p>
+                    </div>
+
+                    <div class="card feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-file-excel"></i></div>
+                        <h3>Excel Import & Export</h3>
+                        <p>Import thousands of products from Excel sheets instantly and export detailed customer ledgers and daily sales reports.</p>
+                    </div>
+
+                    <div class="card feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-print"></i></div>
+                        <h3>Thermal Printing</h3>
+                        <p>Native ESC/POS thermal printer integration for 80mm and 58mm receipts, along with standard A4/A5 billing formats.</p>
+                    </div>
+
+                    <div class="card feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-keyboard"></i></div>
+                        <h3>HotKey Optimized</h3>
+                        <p>Designed for fast keyboard-only operations (F1-F6 shortkeys) so cashier staff can clear customer queues effortlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get Started in 3 Simple Steps</h2>
+                    <p>Set up your cashier terminal in under 5 minutes.</p>
+                </div>
+
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Download Installer</h3>
+                        <p>Click the download button above to get the official <code>Nova POS Setup .exe</code> file for your PC.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Run Setup</h3>
+                        <p>Double click the executable file to launch the wizard and complete the installation on Windows.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Start Selling</h3>
+                        <p>Launch Nova POS, import your inventory or add items manually, and start processing customer bills!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Previous Versions Section -->
+        <section id="previous-versions" class="section bg-alt">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Release Archive & Previous Versions</h2>
+                    <p>Need a previous build? Access historical installer packages below.</p>
+                </div>
+
+                <div class="card table-card">
+                    <table class="versions-table">
+                        <thead>
+                            <tr>
+                                <th>Version</th>
+                                <th>Release Date</th>
+                                <th>Key Changes</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="previous-versions-body">
+                            <!-- Populated dynamically by main.js -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <div class="logo-icon"><i class="fa-solid fa-cash-register"></i></div>
+                    <span>Nova <span class="highlight">POS</span></span>
+                </a>
+                <p>Offline Desktop Point of Sale & Inventory Management System built with Electron and SQLite.</p>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact & Support</h4>
+                <p><i class="fa-solid fa-envelope"></i> support@novapos.com</p>
+                <p><i class="fa-solid fa-globe"></i> www.novapos.com</p>
+            </div>
+
+            <div class="footer-legal">
+                <p>&copy; 2026 Nova POS. All Rights Reserved.</p>
+                <p class="license-note">Licensed for commercial cashier & desktop retail terminals.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
