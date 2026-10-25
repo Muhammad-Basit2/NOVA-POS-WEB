@@ -4,7 +4,6 @@
 
 # ── Build / Installer Output ─────────────────────────────────
 dist/
-*.exe
 *.msi
 *.dmg
 *.app
