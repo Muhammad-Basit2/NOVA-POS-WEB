@@ -71,5 +71,5 @@ Licensed for commercial cashier & desktop retail terminals. All rights reserved.
 
 ## Support
 
-- **Email:** support@novapos.com
-- **Web:** www.novapos.com
+- **Email:** muhammadbasit9274@gmail.com
+- **Web:** 
